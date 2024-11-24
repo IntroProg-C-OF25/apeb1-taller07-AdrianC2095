@@ -24,9 +24,25 @@ public class Problema5_Promedios {
                 estado = "REPROBADO";               
             }else 
                 estado = "APRODADO";
-            System.out.printf("| %s\t| %s\t| %s  | \n", "NOMBRE", "PROMEDIO", "ESTADO");
-            System.out.printf("| %s\t| %.2f\t| %s| \n", nombre, promedio, estado);
+            System.out.printf("|   %s\t |  %s | %s\t |\n", "NOMBRE", "PROMEDIO", "ESTADO");
+            System.out.printf("|   %s\t |   %.2f   | %s\t |\n", nombre, promedio, estado);
             contador++;
         }
     }
 }
+/***
+ * run:
+ * INGRESE NOMBRES Y EL PROMEDIO DEL EST_1: Adrian 10
+ * |   NOMBRE	 |  PROMEDIO | ESTADO	 |
+ * |   Adrian	 |   10,00   | APRODADO	 |
+ * INGRESE NOMBRES Y EL PROMEDIO DEL EST_2: Juan 6,9
+ * |   NOMBRE	 |  PROMEDIO | ESTADO	 |
+ * |   Juan	 |    6,90   | APRODADO	 |
+ * INGRESE NOMBRES Y EL PROMEDIO DEL EST_3: Marco 7
+ * |   NOMBRE	 |  PROMEDIO | ESTADO	 |
+ * |   Marco	 |    7,00   | APRODADO	 |
+ * INGRESE NOMBRES Y EL PROMEDIO DEL EST_4: Andres 5
+ * |   NOMBRE	 |  PROMEDIO | ESTADO	 |
+ * |   Andres	 |    5,00   | REPROBADO |
+ * BUILD SUCCESSFUL (total time: 19 seconds)
+ */
